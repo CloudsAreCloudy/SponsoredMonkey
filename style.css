@@ -1,0 +1,73 @@
+.header {
+	width: 100%;
+	height: 100px;
+	display:block;
+	background-color: #FFBC21;
+}
+
+.inner_header{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color: #000;
+	height: 100%
+	display:table-cell;
+	vertical-align: left;
+        	position: relative;
+ 	top: 18px;
+ 	left: 18px;
+ 	font-weight: 300;
+ 	margin-bottom: 1em;
+ 	font-family: Rammetto One;
+    font-size: 20px;
+}
+
+.logo_container img{
+    margin-top: 10px;
+	border-radius: 3.2em;
+ 	float: left;
+	width: 80px;
+	height: 80px;
+	background: #555;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	 height: 100%;
+	 display: table;
+	 float: left;
+	 padding: 0px 30px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navigation a:last-child {
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	color: #000;
+	font-size: 20px;
+    font-family: Poppins;
+    padding-bottom: 20px;
+}
+
+.navigation a:hover li {
+	color: #FFF;
+}
