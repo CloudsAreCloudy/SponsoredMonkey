@@ -3,6 +3,7 @@ padding: 0;
 margin: 0;
 }
 
+
 .header {
 	width: 100%;
 	height: 100px;
@@ -70,6 +71,9 @@ h1 {
     font-weight: bolder;
 }
 
+#text1 {
+    margin-right: 35%;
+}
 
 .inner_header{
 	width: 90%;
