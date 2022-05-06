@@ -1,0 +1,91 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	display:block;
+	background-color: #FFBC21;
+}
+
+#login {
+    width: 30%;
+    margin-left: 50px;
+    height: 7%;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    margin-top: 30px;
+    font-family: Poppins sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.inner_header{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color: #000;
+	height: 100%
+	display:table-cell;
+	vertical-align: left;
+        	position: relative;
+ 	top: 18px;
+ 	left: 18px;
+ 	font-weight: 300;
+ 	margin-bottom: 1em;
+ 	font-family: Montserrat;
+    font-size: 30px;
+}
+
+.logo_container img{
+    margin-top: 5px;
+ 	float: left;
+	width: 90px;
+	height: 90px;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+    margin-top: 10px;
+}
+
+.navigation a{
+	 height: 100%;
+	 display: table;
+	 float: left;
+	 padding: 0px 30px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navigation a:last-child {
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	color: #000;
+	font-size: 20px;
+    font-family: Poppins;
+    padding-bottom: 20px;
+}
+
+.navigation a:hover li {
+	color: #FFF;
+}
