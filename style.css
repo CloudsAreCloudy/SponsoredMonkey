@@ -10,6 +10,20 @@ margin: 0;
 	background-color: #FFBC21;
 }
 
+#login {
+    width: 30%;
+    margin-left: 50px;
+    height: 7%;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    margin-top: 30px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
 .inner_header{
 	width: 90%;
 	height: 100%;
@@ -32,22 +46,21 @@ margin: 0;
  	left: 18px;
  	font-weight: 300;
  	margin-bottom: 1em;
- 	font-family: Rammetto One;
-    font-size: 20px;
+ 	font-family: Montserrat;
+    font-size: 30px;
 }
 
 .logo_container img{
-    margin-top: 10px;
-	border-radius: 3.2em;
+    margin-top: 5px;
  	float: left;
-	width: 80px;
-	height: 80px;
-	background: #555;
+	width: 90px;
+	height: 90px;
 }
 
 .navigation {
 	float: right;
 	height: 100%;
+    margin-top: 10px;
 }
 
 .navigation a{
