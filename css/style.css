@@ -10,18 +10,68 @@ margin: 0;
 	background-color: #FFBC21;
 }
 
-#login {
-    width: 30%;
-    margin-left: 50px;
-    height: 7%;
-    border-radius: 30px;
-    background-color: cornflowerblue;
-    border-color: cornflowerblue;
+#signupyt {
+    width: 40%;
+    margin-left: 20px;
+    height: 8%;
+    border-radius: 40px;
+    background-color: #FF595F;
+    border-color: #FF595F;
     margin-top: 30px;
-    font-family: Poppins sans-serif;
-    font-weight: bold;
+    font-family: Poppins;
+    font-weight: bolder;
     font-size: 20px;
     color: white;
+      transition: 0.3s;
+      text-align: center;
+}
+
+#signupco {
+    width: 40%;
+    margin-left: 20px;
+    height: 8%;
+    border-radius: 40px;
+    background-color: bisque;
+    border-color: bisque;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+          transition: 0.3s;
+          text-align: center;
+}
+
+#signupyt:hover {
+    width: 40.5%;
+    height: 8.5%;
+    border-radius: 40.5px;
+    background-color: white;
+    color: #FF595F;
+}
+
+#signupco:hover {
+    width: 40.5%;
+    height: 8.5%;
+    border-radius: 40.5px;
+    background-color: black;
+    color: bisque;
+}
+
+#home {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Poppins;
+    
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+h3 {
+    width: 900px;
 }
 
 .inner_header{
