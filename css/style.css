@@ -8,7 +8,7 @@ margin: 0;
 	width: 100%;
 	height: 100px;
 	display:block;
-	background-color: #FFBC21;
+	background-color: #6b9671;
 }
 
 #signupyt {
@@ -60,10 +60,10 @@ margin: 0;
 }
 
 #home {
-    margin-top: 50px;
-    margin-left: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
     font-family: Poppins;
-    
+    background-color: #6b9671;
 }
 
 h1 {
