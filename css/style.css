@@ -16,13 +16,13 @@ margin: 0;
     margin-left: 20px;
     height: 8%;
     border-radius: 40px;
-    background-color: #FF595F;
-    border-color: #FF595F;
+    background-color: white;
+    border-color: white;
     margin-top: 30px;
     font-family: Poppins;
     font-weight: bolder;
     font-size: 20px;
-    color: white;
+    color: black;
       transition: 0.3s;
       text-align: center;
 }
@@ -32,8 +32,8 @@ margin: 0;
     margin-left: 20px;
     height: 8%;
     border-radius: 40px;
-    background-color: bisque;
-    border-color: bisque;
+    background-color: white;
+    border-color: white;
     margin-top: 20px;
     font-family: Poppins;
     font-weight: bolder;
@@ -47,8 +47,8 @@ margin: 0;
     width: 40.5%;
     height: 8.5%;
     border-radius: 40.5px;
-    background-color: white;
-    color: #FF595F;
+    background-color: black;
+    color: white;
 }
 
 #signupco:hover {
@@ -56,7 +56,7 @@ margin: 0;
     height: 8.5%;
     border-radius: 40.5px;
     background-color: black;
-    color: bisque;
+    color: white;
 }
 
 #home {
