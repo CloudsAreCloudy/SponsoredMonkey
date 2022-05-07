@@ -32,7 +32,8 @@ font-weight: bold;
 
 .logo_container h1 {
     color: #000;
-    height: 100% display:table-cell;
+    height: 100%
+    display: table-cell;
     vertical-align: left;
     position: relative;
     top: 18px;
@@ -109,7 +110,7 @@ font-weight: bold;
     margin-left: 20px;
     height: 8%;
     border-radius: 40px;
-    <<<<<<< HEAD background-color: #000;
+    background-color: #000;
     border-color: #000;
     margin-top: 30px;
     background-color: black;
@@ -205,39 +206,70 @@ font-weight: bold;
 }
 
 #social-media {
-    background-color: #363636;
+    background-color: #6b9671;
     height: 9%;
 }
 
-.fa-twitter {
+#twitter {
     font-size: 40px;
-    color: #1DA1F2;
+    color: white;
     margin-top: 10px;
     margin-left: 36%
 }
 
-.fa-instagram {
+#twitter:hover {
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 36%
+}
+
+#instagram {
     font-size: 40px;
     color: white;
     margin-left: 50px;
 }
 
-.fa-youtube {
+#instagram:hover {
     font-size: 40px;
-    color: red;
-        margin-left: 50px;
+    color: black;
+    margin-left: 50px;
 }
 
-.fa-discord {
+#youtube {
     font-size: 40px;
-    color: #6A5ACD;
-        margin-left: 50px;
+    color: white;
+    margin-left: 50px;
 }
 
-.fa-facebook {
+#youtube:hover {
     font-size: 40px;
-    color: #4267B2;
-        margin-left: 50px;
+    color: black;
+    margin-left: 50px;
+}
+
+#discord {
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+#discord:hover {
+    font-size: 40px;
+    color: black;
+    margin-left: 50px;
+}
+
+#facebook {
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+#facebook:hover {
+    font-size: 40px;
+    color: black;
+    margin-left: 50px;
 }
 
 /* After GTKU */
@@ -268,10 +300,108 @@ font-weight: bold;
 .carousel-inner {
     height: 400px;
 }
+/*After FAQ*/
 
+/* Start of footer */
+
+
+.footer{
+	width: 100%;
+    height: 300px;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+    background-color: #89AE8F;
+}
+
+.inner_footer{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%
+}
+
+.inner_footer .logo_container_footer {
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.inner_footer .logo_container_footer img{
+	width: 80px;
+	height: auto;
+	border-radius: 3.2em;
+	margin-top: 2em;
+	margin-left: 6em;
+
+}
+
+
+
+.inner_footer .footer_third{
+	width: calc(21.6666666667% - 20px);
+	margin-right: 10px;
+	float: left;
+	height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+	margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+	font-size: 22px;
+	color: black;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+	font-size: 18px;
+	color: black;
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+
+.inner_footer .footer_third a:hover{
+	color: #FFF;
+}
+
+.inner_footer .footer_third li{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 48px;
+}
+
+@media(max-width: 800px){
+	.footer .inner_footer {
+		width: 90;
+	}
+	.inner_footer .logo_container_footer,
+	.inner_footer .footer_third{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+#footerfacebook{
+    font-size: 30px;
+}
+
+#footersocial {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+/* End of footer */
 /* Dont Mind */
 
 #space {
-	height: 500px;
+	height: 200px;
 }
 
