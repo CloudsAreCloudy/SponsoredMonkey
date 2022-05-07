@@ -24,6 +24,12 @@
     float: left;
 }
 
+#text {
+font-weight: bold;
+    font-family: poppins;
+    color: black;
+}
+
 .logo_container h1 {
     color: #000;
     height: 100% display:table-cell;
@@ -145,14 +151,19 @@
     padding-bottom: 130px;
 }
 
-h1 {
+#logotext {
     font-family: Montserrat;
     font-weight: bolder;
+    margin-top: 3px;
 }
 
 #text1 {
 	width:50%;
+    font-weight: 500;
+    margin-top: 10px;
+    color: black;
 }
+
 
 
 /* After Header */
@@ -162,11 +173,15 @@ h1 {
 	text-align: center;
 	padding-top: 25px;
 	margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Poppins;
 }
 
 #line {
-	margin-left: 505px;
-	margin-bottom: 15px;
+	margin-left: 45%;
+	margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #text2 {
@@ -174,10 +189,85 @@ h1 {
 	margin-left: 100px;
 	margin-right: 100px;
 	font-family: poppins;
-	font-weight: normal;
+	font-weight: 500;
 	line-height: 32px;
+    font-size: 20px;
 }
 
+#section1 {
+    margin-top: 10px;
+}
+
+#highlight {
+  color: #89AE8F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#social-media {
+    background-color: #363636;
+    height: 9%;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #1DA1F2;
+    margin-top: 10px;
+    margin-left: 36%
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+.fa-youtube {
+    font-size: 40px;
+    color: red;
+        margin-left: 50px;
+}
+
+.fa-discord {
+    font-size: 40px;
+    color: #6A5ACD;
+        margin-left: 50px;
+}
+
+.fa-facebook {
+    font-size: 40px;
+    color: #4267B2;
+        margin-left: 50px;
+}
+
+/* After GTKU */
+
+#divider {
+    opacity: 0.2;
+    background: black;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#FAQ {
+    width: 55%;
+    margin-left: 23%;
+}
+
+#heading3 {
+    text-align: center;
+	padding-top: 25px;
+	margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-top: 5px;
+}
+
+.carousel-inner {
+    height: 400px;
+}
 
 /* Dont Mind */
 
