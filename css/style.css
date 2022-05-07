@@ -33,7 +33,6 @@
 .logo_container h1 {
     color: #000;
     height: 100%;
-    display: table-cell;
     vertical-align: left;
     position: relative;
     top: 18px;
