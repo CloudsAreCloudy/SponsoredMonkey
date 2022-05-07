@@ -330,7 +330,7 @@ font-weight: bold;
 }
 
 .inner_footer .logo_container_footer img{
-	width: 80px;
+	width: 100px;
 	height: auto;
 	border-radius: 3.2em;
 	margin-top: 2em;
@@ -338,6 +338,10 @@ font-weight: bold;
 
 }
 
+.logo_container_footer {
+    margin-top: 25px;
+    padding-left: 70px;
+}
 
 
 .inner_footer .footer_third{
@@ -405,3 +409,8 @@ font-weight: bold;
 	height: 200px;
 }
 
+#btn {
+    background-image: url(/SMLogo.png);
+    width: 106px;
+    height: 106px;
+}
