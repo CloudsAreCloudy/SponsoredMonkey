@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.helptext h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.helptext h2 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'montserrat';
+    margin-left: 20px;
+    text-decoration: underline 2px solid black;
+}
+
+.helptext p {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'montserrat';
+}
