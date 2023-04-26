@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+text {
+    font-family: Poppins;
+}
+
 
 .header {
     width: 100%;
